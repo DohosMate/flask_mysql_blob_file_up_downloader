@@ -1,0 +1,30 @@
+<HTML>
+    <BODY bgcolor="cyan">
+    <form method="POST" enctype="multipart/form-data">
+        <center>
+        <H1>Enter your details </H1> <br>
+        Input file <input type = "file" name= "the_file" /> <br>
+        <input type = "submit"  value="feltöltés">
+        </center>
+    </form>
+    <form method="GET"enctype="multipart/form-data">
+        <center>
+            <H1>GET details </H1> <br>
+            <input type = "submit" value="letöltés">
+        </center>
+        {% if uploaded_files %}
+            <table>
+                <h1>Uploaded staff</h1>
+                <tbody>
+                    {% for uploaded_file in uploaded_files %}
+                        <tr>
+                            <td> {{ uploaded_file.id }}</td>
+                            <td> {{ uploaded_file.name }}</td>
+                        </tr>
+                        {% endfor %}
+                </tbody>
+            </table>
+        {% endif %}
+    </form>
+    </BODY>
+    </HTML>

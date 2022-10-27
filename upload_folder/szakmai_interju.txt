@@ -1,0 +1,22 @@
+Chipek gyártása: minden ami okos, gépek összekapcsolódása vezeték nélkül.
+rádiós interface és CPU interface re oszthatóak ezek az chipek. Az Rf validációs csapat a rádiós interface validálását végzi.
+A validációban nagy tömegű adatgyűjtést végeznek automata adatgyűjtő rendszerekkel. Rf mérőállomás-t remote tudják elérni. 
+Programozás: alapszintű python tudás, felszedhető az rf tudással közösen.  
+
+mérési adatokat kellene segíteni, mérési adatok gyűjtése, kiértékelése, indítása, újraindítása
+A python eddig nem jött elő mint tudás igény, most viszont igen. --> Szerintem ami ide kell az induláshoz az 
+
+Dobos Mátyás, Müller Ervin szakmai interjú:
+
+kérdések:
+
+rádiófrekvencia
+erősítő osztályok: A-D -ig
+modulációk: frekvencia, amplitudo, PWM, analóg6digitális modulációk
+hibajelentés menete, hibajegyek kezelése. Hogyan zártátok ki, hogy nem mérési hiba?
+cv specifikus kérdések
+lejszintek: absolute, relative, dbm minek a mértékegysége? (mW ban mért teljesítmény)
+
+
+
+
